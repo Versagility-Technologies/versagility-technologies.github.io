@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # arkadianriver.com
 
 My personal web site, using the awesome design of http://html5up.net/spectral by
@@ -95,8 +94,3 @@ This is a theme in the old sense of the word. This is not a newer _gem-based_ th
 
 ## License
 MIT
-
-=======
-# versagility-website
-Versagility Technologies website
->>>>>>> 3fbea3062f379739d7ff09dc42a51800fe9a9c2b
