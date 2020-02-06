@@ -1,25 +1,17 @@
 ---
 key: 1
-title: Works
-permalink: /works/
-excerpt: The portfolio&mdash;things I enjoyed creating
+title: Services
+permalink: /services/
+excerpt: What can Versagility bring to the table?
 image: pic02.jpg
 background-image: pic02.jpg
 ---
 {%
-if site.social.linkedin-square %}
-<div class="table-wrapper">
-  <table class="alt"><tbody><tr><td style="text-align: center;">Visit my
-  <a target="_blank" href="{{ site.social.linkedin-square }}">LinkedIn profile</a></td>
-  </tr></tbody></table>
-</div>{%
-endif %}
-{%
-if site.categories.works %}
+if site.categories.services %}
 <div class="table-wrapper">
   <table>
     <tbody>{%
-      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
+      include fn_groupsort_reverse.html unsorted=site.categories.services groupby='priority' sortby='date'
 %}{%  for work in sorted_list %}
       <tr>
         <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></b></td>

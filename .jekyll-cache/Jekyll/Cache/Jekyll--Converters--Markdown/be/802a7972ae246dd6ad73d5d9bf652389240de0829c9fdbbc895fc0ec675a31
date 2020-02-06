@@ -1,0 +1,83 @@
+I"z<hr />
+
+<p>You can use the following includes in the body of your posts as shortcuts
+for blocks of code that you might otherwise use repetitively. These are
+also helpful if you or I decide to change the method that the content is
+presented; we’d need only change the include file.</p>
+
+<h2 id="media-embeds">Media embeds</h2>
+
+<p>For each of these embeds, the media-id is readily available from the Video’s
+URL, from the address bar or the share link provided by most shareable media.</p>
+
+<p>For example, the first Vimeo example uses the <code class="highlighter-rouge">id</code> 66140585
+from the video’s URL: <code class="highlighter-rouge">https://player.vimeo.com/video/66140585</code>.</p>
+
+<h3 id="vimeo">Vimeo</h3>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">{% include post_vimeo.html id="<span class="nt">&lt;media-id&gt;</span>" %}</code></pre></figure>
+
+<div class="embed-container">
+  <iframe src="https://player.vimeo.com/video/66140585" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+
+<h3 id="youtube">YouTube</h3>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">{% include post_youtube.html id="<span class="nt">&lt;media-id&gt;</span>" %}</code></pre></figure>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/QILiHiTD3uc" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<h2 id="notices">Notices</h2>
+
+<p>If you are writing documentation posts such as this User Guide, you might
+want to add a notice here or there, something that stands out. The types
+of notices available with this include are note, tip, important, did-you-know,
+and faq. If you do not provide a type, the default is note.</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">{% include post_note.html type="tip" text="Your note text..." %}</code></pre></figure>
+
+<table class="alt" style="width:95%;margin-left:0.5em;">
+<tr><td class="Nvar1"><span class="image note"><span class="icon fa-lightbulb-o styleN Nvar1"></span></span>
+Your note text...
+</td>
+</tr></table>
+
+<h2 id="paragraph-wrapped-images">Paragraph-wrapped images</h2>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">{% include post_picwrap.html pos="left" src="/images/pic04.jpg" %}
+Laborum et in in cillum quis ut mollit id sit dolor nostrud. Occaecat mollit
+in adipisicing magna nostrud sunt nulla consectetur cupidatat tempor dolore
+magna. Est ad sit eu tempor aute sunt sunt excepteur cupidatat sed irure ut et
+elit veniam. Lorem ipsum tempor quis ea in minim labore nisi aute ea sed irure
+nisi occaecat est magna occaecat occaecat. Nostrud sed est ullamco enim ut
+proident dolor et in consequat aliquip in ex eu ad. Incididunt sit sit dolore
+dolore ut excepteur sunt laboris ut ullamco velit. Veniam tempor dolor magna
+in nulla elit dolor ea et commodo in. Laboris eu adipisicing nostrud commodo
+commodo ea laborum non minim cupidatat. Lorem ipsum non laborum anim ex labore
+commodo commodo eu aliqua est ea consequat do aute ex amet incididunt
+consectetur enim. Consequat consectetur occaecat cillum tempor occaecat sunt
+ea laboris exercitation excepteur.</code></pre></figure>
+
+<p><span class="image left"><img src="/images/pic05.jpg" alt="" /></span>
+Laborum et in in cillum quis ut mollit id sit dolor nostrud. Occaecat mollit
+in adipisicing magna nostrud sunt nulla consectetur cupidatat tempor dolore
+magna. Est ad sit eu tempor aute sunt sunt excepteur cupidatat sed irure ut et
+elit veniam. Lorem ipsum tempor quis ea in minim labore nisi aute ea sed irure
+nisi occaecat est magna occaecat occaecat. Nostrud sed est ullamco enim ut
+proident dolor et in consequat aliquip in ex eu ad. Incididunt sit sit dolore
+dolore ut excepteur sunt laboris ut ullamco velit. Veniam tempor dolor magna
+in nulla elit dolor ea et commodo in. Laboris eu adipisicing nostrud commodo
+commodo ea laborum non minim cupidatat. Lorem ipsum non laborum anim ex labore
+commodo commodo eu aliqua est ea consequat do aute ex amet incididunt
+consectetur enim. Consequat consectetur occaecat cillum tempor occaecat sunt
+ea laboris exercitation excepteur.</p>
+
+<p>In addition to ‘left’ and ‘right’, there is also a <code class="highlighter-rouge">pos</code> value of ‘fit’ You
+can use this value when you want the image to fit 100% of the width of the
+containing block (such as a paragraph), but you still want it to shrink on
+smaller screens. Also, with this ‘fit’ value, if you don’t want the image
+to scale larger than a certain size (such as the width of the actual image),
+then you can add a max parameter with a value in pixels.</p>
+:ET
