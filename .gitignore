@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Jekyll ignores
 .jekyll-metadata
 .sass-cache/
@@ -69,4 +68,3 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
->>>>>>> 3fbea3062f379739d7ff09dc42a51800fe9a9c2b
