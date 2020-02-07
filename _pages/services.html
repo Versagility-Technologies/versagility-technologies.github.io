@@ -3,30 +3,33 @@ key: 1
 title: Services
 permalink: /services/
 excerpt: What can Versagility bring to the table?
-image: pic02.jpg
-background-image: pic02.jpg
+image: people.jpg
+background-image: people.jpg
 ---
 {%
 if site.categories.services %}
-<div class="table-wrapper">
-  <table>
-    <tbody>{%
+<table>
+  <tr>
+{%
       include fn_groupsort_reverse.html unsorted=site.categories.services groupby='priority' sortby='date'
 %}{%  for work in sorted_list %}
-      <tr>
-        <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></b></td>
-        <td>{{ work.date | date: "%b %Y" }}</td>
-        <td>{{ work.excerpt | strip_html | truncatewords: 12 }}</td>
-        <td>
-          {% include techlist.html %}
-        </td>
-      </tr>{%
+    <td>
+      <div class="card">
+        <a href="{{ work.url | prepend: site.baseurl }}">
+        <img style="width:100%; height: 15em;" src="{{ work.background-image | prepend: '../images/' }}">
+        <div class="container">
+          <h1><b>{{ work.title }}</b></h1>
+          <p>
+          {{ work.excerpt | strip_html | truncatewords: 12 }}
+          </p>
+          {% include techlist.html %}  
+        </div>
+        </a>
+      </div>
+    </td>{%
       endfor %}
-    </tbody>
-  </table>
-</div>{%
-  if site.works_in_progress %}
-  <div class="works_inprogress">In-progress, more to come.</div>{%
-  endif %}{%
+  </tr>
+</table>
+    {%
 endif
 %}

@@ -14,7 +14,7 @@
         <!-- Banner -->
           <section id="banner">
             <div class="inner">
-              <h1>{{ site.title }}</h1>
+              <h1><img height="100px" class="center-block" src="../images/logo.png"><div>{{ site.title }}</div></h1>
               <p>{{ site.description }}</p>
               <!--
               <ul class="actions">
@@ -38,7 +38,7 @@
                 <p>{% if site.greeting.text %}{{ site.greeting.text | markdownify }}{% else %}{{ site.description | markdownify }}{% endif %}</p>
               </header>
               <ul class="icons major">{%
-              for socloc in site.social limit:3 %}{%
+              for socloc in site.social limit:4 %}{%
                 if socloc[1] %}{%
                   if socloc[0] == 'email' %}
                 <li><a target="_blank" href="{%
@@ -47,7 +47,7 @@
                     endif %}" class="icon fa-envelope major style1"
                        ><span class="label">E-mail</span></a></li>{%
                   else %}
-                <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }} major style{% cycle 1, 2, 3 %}"
+                <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }} major style{% cycle 1, 2, 3, 4 %}"
                        ><span class="label">{{ socloc[0] }}</span></a></li>{%
                   endif %}{%
                 endif %}{%
@@ -85,7 +85,7 @@
 
         <!-- Three -->{%
       if site.tags.featured %}
-          <section id="landing_features" class="wrapper style3 special">
+          <section id="landing_features" class="wrapper style4 special">
             <div class="inner">
               <header class="major">
                 <h2>{{ site.features-title }}</h2>
@@ -112,20 +112,6 @@
             </div>
           </section>{%
       endif %}
-
-        <!-- CTA -->
-          <section id="cta" class="wrapper style4">
-            <div class="inner">
-              <header>
-                <h2>{{ site.closing-head }}</h2>
-                <p>{{ site.closing-para }}</p>
-              </header>
-              <ul class="actions vertical">
-                <!-- <li><a href="#" class="button fit special">Activate</a></li> -->
-                <li><a href="{{ '/contact/' | prepend: site.baseurl }}" class="button fit special">Contact</a></li>
-              </ul>
-            </div>
-          </section>
 
       {% include footer.html %}
 

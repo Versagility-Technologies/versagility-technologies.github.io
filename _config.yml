@@ -1,21 +1,15 @@
-# Welcome to Jekyll!
-
-
 # In addition to these settings, there is a file _data/tokens-template.yml
 # that you'll want to customize for your site. It's named 'tokens' because
 # that was it's original purpose, but because tokens.yml is .gitexcluded, it's
 # a good place to store your site-specific data that you'd rather not have
 # forked or cloned. Of course, that means you'd want to back it up elsewhere.
 
-# Also, for your post bylines, add author info for yourself in `_data/authors.yml`.
-# (Using that method instead of site.owner, in case your posts get cloned with your repo.)
-
 # Site settings
 title: Versagility Technologies
 description: Harnessing Change to Maximize Value
 owner:
-  name: Versagility Technologies # or company name
-  url: "http://versagilitytechnologies.com" # your URL
+  name: Versagility Technologies 
+  url: "http://versagilitytechnologies.com"
 first_published: 2020 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
 url: "http://versagilitytechnologies.com" # the base hostname & protocol for this site
@@ -29,19 +23,37 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Developing software properly is not easy  
-  text: As our business environments evolve and change over time, so do the needs in the software applications we use to support our business. Our goal is to share our passion and knowledge of Agile software development to help our customers embrace change to increase their competitive advantage. Our commitment to developing high quality solutions and technical excellence enable us to reach our goal and partner with customers to develop the processes, tools, and software they need to maximize their business value of their products.
+  text: >-
+    As our business environments evolve and change over time, 
+    so do the needs in the software applications we use to support our business. 
+    Our goal is to share our passion and knowledge of Agile software development 
+    to help our customers embrace change to increase their competitive advantage. 
+    Our commitment to developing high quality solutions and technical excellence 
+    enable us to reach our goal and partner with customers to develop the processes, 
+    tools, and software they need to maximize their business value of their products.
+
 # - displayed at the bottom
 closing-head: About Us
-closing-para: Versagility Technologies is a small business specializing in acquiring, developing, and managing software applications for the United States Navy, Marine Corp, and Air Force. Our extensive experience includes, but is not limited to, systems engineering, system documentation, software re-architecture, developing open architecture service oriented software solutions, business development, process improvement, project management, application life cycle management, acquisition support, and technical consulting.  We strive to form partnerships with our customers to build versatile, agile software solutions for our country’s Warfighters using sound development processes. We provide a full range of software development services to help our customers achieve their missions and provide critical products to our military.
+closing-para: >-
+  Versagility Technologies is a small business specializing in acquiring, developing, 
+  and managing software applications for the United States Navy, Marine Corp, and 
+  Air Force. Our extensive experience includes, but is not limited to, systems engineering, 
+  system documentation, software re-architecture, developing open architecture service 
+  oriented software solutions, business development, process improvement, project 
+  management, application life cycle management, acquisition support, and technical 
+  consulting.  We strive to form partnerships with our customers to build versatile, 
+  agile software solutions for our country’s Warfighters using sound development processes. 
+  We provide a full range of software development services to help our customers achieve 
+  their missions and provide critical products to our military.
 
-# on all pages (and the first three you list display with greeting, if included)
+# on all pages (and the first four you list display with greeting, if included)
 social:
+  email: leadership@versagilitytechnologies.com # you can configure and use this contact page or email
   twitter: https://twitter.com/versagilitytech
   github: https://github.com/Versagility-Technologies
   linkedin-square: https://www.linkedin.com/company/versagility-technologies
   #facebook-official: https://facebook.com/_username_
   #google-plus-square: https://plus.google.com/u/0/+_username_
-  email: bturner@versagilitytechnologies.com # you can configure and use this contact page or use your email addy
   #flickr:
   #instagram:
   #youtube-square:
@@ -91,9 +103,6 @@ compose:
 # choose where to put back and next links:
 # top, bottom, both, none
 navlinks: bottom
-
-# expecting more works? mark your list as in-progress
-works_in_progress: yes
 
 # Github pages posts future posts by default.
 # You'll want to move the user guide posts to _drafts if you set this to true.
