@@ -1,22 +1,40 @@
 # authors
 
 brad:
-  name: Brad Turner
+  name: Brad Turner, CTO
   bio: >
-    When I’m not behind a keyboard, I’m usually either at a game 
-    screaming at one of my favorite sports teams or peacefully 
-    fishing from a kayak.
+    I've spent the majority of my career developing web based applications in support of various
+    groups within the DoD.  Most recently I've been integrating DevSecOps principles into the 
+    government software development lifecycle.  I am a huge Washington Captialas fan and enjoy kayak 
+    fishing.
   url: https://brandnameboredom.github.io/
   avatar: brad.png
+  email: bturner@versagilitytechnologies.com
 
 derek:
-  name: Derek Thompson
-  bio: 
+  name: Derek Thompson, COO
+  bio: FILL OUT
   url: 
-  avatar:
+  avatar: 
+  email: dthompson@versagilitytechnologies.com
 
 mike:
-  name: Mike Jenkins
+  name: Mike Jenkins, CEO
+  bio: FILL OUT
+  url:
+  avatar: mike.png
+  email: mjenkins@versagilitytechnologies.com
+
+pat:
+  name: Pat Setorie, Software Engineer
   bio:
   url:
   avatar:
+  email: psetorie@versagilitytechnologies.com
+
+tan:
+  name: Tan Pham, Software Engineer
+  bio:
+  url:
+  avatar:
+  email: tpham@versagilitytechnologies.com
