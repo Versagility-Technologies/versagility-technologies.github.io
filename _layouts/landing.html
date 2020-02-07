@@ -59,7 +59,7 @@
 
         <!-- Two -->
           <section id="landing_pages" class="wrapper alt style2">{%
-            assign sorted_pages = site.pages | sort:"id" %}{%
+            assign sorted_pages = site.pages | sort:"key" %}{%
             for my_page in sorted_pages %}{%
               if my_page.title %}{%
                 unless my_page.options contains 'nolanding' %}
@@ -89,7 +89,6 @@
             <div class="inner">
               <header class="major">
                 <h2>{{ site.features-title }}</h2>
-                <!-- <p>Blog posts with decent content</p> -->
               </header>
               <ul class="features">{%
                 for my_post in site.posts %}{%
