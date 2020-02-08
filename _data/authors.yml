@@ -13,14 +13,14 @@ brad:
 
 derek:
   name: Derek Thompson, COO
-  bio: FILL OUT
+  bio: 
   url: 
-  avatar: 
+  avatar: ""
   email: dthompson@versagilitytechnologies.com
 
 mike:
   name: Mike Jenkins, CEO
-  bio: FILL OUT
+  bio: 
   url:
   avatar: mike.png
   email: mjenkins@versagilitytechnologies.com
@@ -29,12 +29,12 @@ pat:
   name: Pat Setorie, Software Engineer
   bio:
   url:
-  avatar:
+  avatar: ""
   email: psetorie@versagilitytechnologies.com
 
 tan:
   name: Tan Pham, Software Engineer
   bio:
   url:
-  avatar:
+  avatar: ""
   email: tpham@versagilitytechnologies.com

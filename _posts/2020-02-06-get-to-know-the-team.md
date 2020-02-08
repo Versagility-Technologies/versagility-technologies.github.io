@@ -35,7 +35,11 @@ team:
 {%   assign pic = auth.avatar | prepend: "/images/" | prepend: site.baseurl %}
 {% endif %}
 <div class="author" style="margin-bottom:10px">
+  {% if auth.avatar == "" %}
+  <div style="display:inline-block;border-radius:7px;overflow:hidden;height:100px;width:100px;background-size:100px;"><span class="icon fa-user styleN"></span></div>
+  {% else %}
   <div style="display:inline-block;border-radius:7px;overflow:hidden;height:100px;width:100px;background:url({{ pic }});background-size:100px;"></div>
+  {% endif %}
   <div style="display:inline-block;padding-left:5px;vertical-align:top;"><b>{{
     auth.name }}</b>{% if auth.email %}<br />(<a href="mailto:{{ auth.email }}">{{ auth.email }}</a>){% endif %}<br
     /><i><a href="{{ auth.url }}" target="_blank">{{ auth.url }}</a></i>
