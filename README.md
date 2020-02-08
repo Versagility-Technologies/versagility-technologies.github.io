@@ -1,46 +1,15 @@
-# arkadianriver.com
+# versagilitytechnologies.com
 
-My personal web site, using the awesome design of http://html5up.net/spectral by
+This repository stores the code for the Versagility Technologies website.  It leverages a Jekyll 
+template from arkadianriver.github.io which is based upon the design of http://html5up.net/spectral by
 the talented [@ajlkn](http://twitter.com/ajlkn).
 
-I morphed that design into this Jekyll [theme](#theme-note) for blog and portfolio entries.
-[Jekyll](https://jekyllrb.com) is a static site generator, which
-uses templates to generate all the publishable content as static
-HTML files (as opposed to something like WordPress, which has files that pull
-data from a database at runtime).
-This repo is the exact same code I use for my site (excluding my posts and
-some data files created from templates where noted).
+Further documentation regarding how to leverage the theme can be found in the following locations:
 
 - [Features](https://arkadianriver.github.io/arkadianriver.com/topics/user-guide/features.html)
 - [Authoring Guide](https://arkadianriver.github.io/arkadianriver.com/topics/user-guide/)
 
-## If you like it
-
-You can clone or fork this repo as a [theme](#theme-note) for your own blog.
-Because it doesn't use any plugins, you can easily
-[host it on GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages).
-Even so, I recommend cloning your fork locally to create and preview your posts,
-regardless of where you choose to publish.
-
-With it downloaded and with Ruby, RubyGems, and Jekyll 3.1.2 or higher installed, you can use the post-creation script,
-preview how your site looks and functions, and properly view the theme's User Guide.
-
-1. Personalize the information in the [YAML files](http://www.yaml.org/start.html).
-
-   File | Action
-   -----|-------
-   **`_config.yml`** | Replace the values for each key with your info.
-   **`_data/tokens.yml`** | Create this file, using `_data/tokens-template.yml` as an example.
-   **`_data/authors.yml`** | Add author info for yourself as the first entry in the file.
-
-1. Personalize the images with your own, and change the attribution for your new banner
-   at the bottom of `_data/credits.yml`.
-
-   Image | Description
-   ------|------------
-   **`banner.jpg`** | The main large image on the front page
-   **`pic01.jpg`** | The topics image
-   **`pic02.jpg`** | The works image
+## Using the template
 
 1. From the repo's root directory, start Jekyll to preview as you write.
    
@@ -57,11 +26,12 @@ preview how your site looks and functions, and properly view the theme's User Gu
    ruby compose.rb
    ```
 
-   The User Guide describes some features that might be useful: http://localhost:4000/topics/user-guide/
+   The [Authoring Guide](https://arkadianriver.github.io/arkadianriver.com/topics/user-guide/) describes some features 
+   of the compose script that might be useful.
 
 1. Test and publish your site:
 
-   If you're building your site on Windows (like me) you can use the `site.bat` file;
+   If you're building your site on Windows you can use the `site.bat` file;
    otherwise, just use the Jekyll commands as indicated in the site command reference below.
    
    If you use WinSCP to sync with your remote site, you can use the _publish_ option.
@@ -89,8 +59,3 @@ preview how your site looks and functions, and properly view the theme's User Gu
      publish Uses WinSCP's synchronize feature to mirror to a remote site.
    ```
 
-## Theme note
-This is a theme in the old sense of the word. This is not a newer _gem-based_ theme (yet).
-
-## License
-MIT
