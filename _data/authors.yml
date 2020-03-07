@@ -47,7 +47,11 @@ pat:
 
 tan:
   name: Tan Pham, Software Engineer
-  bio: 
+  bio: >
+    Over the past 16 years, I have  supported various program offices within NavAir and 
+    NavSea ranging from server admin, architecture design, IA, data analytic and software 
+    development in both web and hardware. I have two girls and I enjoying playing tennis, 
+    volleyball, and soccer.
   url:
   avatar: tan.png
   email: tpham@versagilitytechnologies.com
