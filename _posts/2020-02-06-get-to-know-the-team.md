@@ -36,7 +36,7 @@ team:
 {% endif %}
 <div class="author" style="margin-bottom:10px">
   {% if auth.avatar == "" %}
-  <div style="display:inline-block;border-radius:7px;overflow:hidden;height:120px;width:100px;background-size:100px;"><span class="icon fa-user styleN"></span></div>
+  <div style="display:inline-block;border-radius:7px;overflow:hidden;height:120px;width:100px;background-size:100px 120px;"><span class="icon fa-user styleN"></span></div>
   {% else %}
   <div style="display:inline-block;border-radius:7px;overflow:hidden;height:120px;width:100px;background:url({{ pic }});background-size:100px 120px;"></div>
   {% endif %}
