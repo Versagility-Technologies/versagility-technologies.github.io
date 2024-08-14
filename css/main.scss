@@ -1639,6 +1639,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	  	width:35%;
 		height:100%;
 		min-height: 100px;
+		min-width: 325px;
 	  }
 	  .auth-desc {
 	  	font-style: italic;
