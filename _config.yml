@@ -8,29 +8,36 @@
 title: Versagility Technologies
 description: Harnessing Change to Maximize Value
 owner:
-  name: Versagility Technologies 
+  name: Versagility Technologies
   url: "http://versagilitytechnologies.com"
-first_published: 2020 # if migrating another site, the year of your first publish
-                      # Must be a 4-digit integer year (math is used on it)
+first_published:
+  2020 # if migrating another site, the year of your first publish
+  # Must be a 4-digit integer year (math is used on it)
 url: "http://versagilitytechnologies.com" # the base hostname & protocol for this site
-baseurl: "" # the subpath of your site, e.g. /blog
-            # Note you'll have to move your robots.txt to the root if you want it used.
-            # And list multiple sitemaps if there are other subdirectories you want indexed
-            # besides this blog.
+baseurl:
+  "" # the subpath of your site, e.g. /blog
+  # Note you'll have to move your robots.txt to the root if you want it used.
+  # And list multiple sitemaps if there are other subdirectories you want indexed
+  # besides this blog.
 lang: en-us # used in HTML lang attributes
 
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: Developing software properly is not easy  
+  title: Creating software solutions effectively is challenging
   text: >-
-    As our business environments evolve and change over time, 
-    so do the needs in the software applications we use to support our business. 
-    Our goal is to share our passion and knowledge of Agile software development 
-    to help our customers embrace change to increase their competitive advantage. 
-    Our commitment to developing high quality solutions and technical excellence 
-    enable us to reach our goal and partner with customers to develop the processes, 
-    tools, and software they need to maximize their business value of their products.
+    Software development requires a deep understanding of complex requirements, meticulous planning, 
+    and precise execution. Teams must navigate shifting project specifications, 
+    integrate diverse technologies, and ensure the final product is both functional and 
+    user-friendly. Additionally, managing timelines, coordinating with stakeholders, and 
+    maintaining high-quality standards throughout the development process adds layers of 
+    difficulty. Successful software development demands not only technical skills but also 
+    adaptability, problem-solving abilities, and effective communication.
+    Our aim is to leverage our enthusiasm and expertise in Agile software development 
+    to assist our customers in embracing change and enhancing their competitive edge.
+    We emphasize forming partnerships with our clients to create adaptable 
+    software solutions using lean-agile methods and offer comprehensive software 
+    development services to support our clients' missions.
 
 # - displayed at the bottom
 closing-head: About Us
@@ -117,8 +124,8 @@ permalink: /:categories/:title.html
 markdown: kramdown
 #sass:
 #  style: compressed
-exclude: ['site.bat','compose.rb','README.md']
-include: ['_pages','.htaccess']
+exclude: ["site.bat", "compose.rb", "README.md"]
+include: ["_pages", ".htaccess"]
 defaults:
   - scope:
       path: _pages

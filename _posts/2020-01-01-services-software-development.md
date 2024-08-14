@@ -1,5 +1,5 @@
 ---
-priority: 0.6
+priority: 1
 title: Software Development
 author: brad
 excerpt: So, you are ready to write the thing. Let's do this!

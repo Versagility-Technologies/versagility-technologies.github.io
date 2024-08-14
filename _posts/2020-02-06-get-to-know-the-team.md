@@ -1,6 +1,6 @@
 ---
 title: Get to know the team
-excerpt: So...who are we?
+excerpt: Discover how our combined strengths and varied backgrounds fuel innovation
 tags: featured
 categories:
   - topics
@@ -17,9 +17,10 @@ team:
   - tan
 ---
 
+{%   assign logo = "versagility-logo.png" | prepend: "/images/" | prepend: site.baseurl %}
 <div class="row">
   <div class="col-md-4" markdown="1">
-  <img height="100px" class="center-block" src="../images/logo.png">
+  <img class="center-block" src="{{logo}}">
   </div>
   <div class="col-md-8" markdown="1">
   {{ site.closing-para }}
@@ -35,15 +36,29 @@ team:
 {%   assign pic = auth.avatar | prepend: "/images/" | prepend: site.baseurl %}
 {% endif %}
 <div class="author" style="margin-bottom:10px">
+  <div class="auth-info">
   {% if auth.avatar == "" %}
-  <div style="display:inline-block;border-radius:7px;overflow:hidden;height:100px;width:100px;background-size:100px;"><span class="icon fa-user styleN"></span></div>
+  <div style="display:inline-block;border-radius:7px;overflow:hidden;height:250px;width:250px;background-size:250px;"><span class="icon fa-user styleN"></span></div>
   {% else %}
-  <div style="display:inline-block;border-radius:7px;overflow:hidden;height:100px;width:100px;background:url({{ pic }});background-size:100px;"></div>
+  <div style="display:inline-block;border-radius:7px;overflow:hidden;height:250px;width:250px;background:url({{ pic }});background-size:250px;"></div>
   {% endif %}
-  <div style="display:inline-block;padding-left:5px;vertical-align:top;"><b>{{
+  <br/>
+  <div style="display:inline-block;padding-left:5px;"><b>{{
     auth.name }}</b>{% if auth.email %}<br />(<a href="mailto:{{ auth.email }}">{{ auth.email }}</a>){% endif %}<br
-    /><i><a href="{{ auth.url }}" target="_blank">{{ auth.url }}</a></i>
+    /><i><a href="{{ auth.url }}" target="_blank">{{ auth.url }}</a></i><br/>
+    {% if auth.credentials != blank %}
+      <div style="width:300px;word-wrap: break-word">
+      {% for cred in auth.credentials %}
+        <a href="{{cred.url}}" target="_blank">
+          {% assign credImg = cred.image | prepend: "/images/" | prepend: site.baseurl %}
+          <div style="display:inline-block;border-radius:7px;overflow:hidden;height:50px;width:50px;background:url({{ credImg }});background-size:50px;" title="{{cred.text}}"></div>
+        </a>
+      {% endfor %}
+      </div>
+    {% endif %}
+  </div>
   </div>
   <div class="auth-desc">{{ auth.bio }}</div>
 </div>
+<hr/>
 {% endfor %}
