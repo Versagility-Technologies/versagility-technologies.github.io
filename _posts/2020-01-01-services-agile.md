@@ -1,6 +1,6 @@
 ---
-priority: 0.7
-title: Agile Process
+priority: 3
+title: Agile Coaching
 author: brad
 excerpt: Need help tracking what is going on?  We can help.
 categories: services

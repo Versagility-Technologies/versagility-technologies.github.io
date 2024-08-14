@@ -3,13 +3,32 @@
 brad:
   name: Brad Turner, CTO
   bio: >
-    I've spent the majority of my career developing web based applications in support of various
-    groups within the DoD.  Most recently I've been integrating DevSecOps principles into the 
-    government software development lifecycle.  I am a huge Washington Capitals fan and enjoy kayak 
-    fishing.
-  url: https://brandnameboredom.github.io/
+    I've spent the majority of my career participating in and leading Agile software development efforts 
+    leveraging various Agile methodologies including Scrum, Kanban and SAFe in support of various groups
+    within the DoD.  With experience in the implementation of various Development Security Operations 
+    (DevSecOps) strategies, virtualization technologies, and cloud computing service models I I've strived to 
+    establish a culture of rapid innovation and relentless improvement resulting in accelerated delivery of 
+    functionality to the stakeholders. I’m an avid fan of the Washington Capitals and enjoy kayak fishing.
+  url:
   avatar: brad.png
   email: bturner@versagilitytechnologies.com
+  credentials: [
+      {
+        text: "Certified SAFe 6 Practitioner",
+        image: "certifications/certified-safe-6-practitioner.png",
+        url: "https://www.credly.com/badges/594029f0-be4b-476c-9226-52f9aaef1285/public_url",
+      },
+      #{
+      #  text: "Certified SAFe 5 Practitioner",
+      #  image: "certifications/certified-safe-5-practitioner.png",
+      #  url: "https://www.credly.com/badges/49a4bffa-a2e6-4573-9964-3a436c2f7796/public_url",
+      #},
+      #{
+      #  text: "Certified SAFe 4 Practitioner",
+      #  image: "certifications/certified-safe-4-practitioner.png",
+      #  url: "https://www.credly.com/badges/49a4bffa-a2e6-4573-9964-3a436c2f7796/public_url",
+      #}
+    ]
 
 derek:
   name: Derek Thompson, COO
@@ -25,7 +44,7 @@ derek:
     projects. Now with a small company, I’m enjoying every minute of the ride working alongside driven, 
     super smart folks with a singular focus… excellence. When I’m not working I enjoy watching sports, 
     taking orders from my 3 beautiful daughters and one amazing wife:-). Cheers!
-  url: 
+  url:
   avatar: derek.jpg
   email: dthompson@versagilitytechnologies.com
 
@@ -48,6 +67,34 @@ mike:
   url:
   avatar: mike.jpg
   email: mjenkins@versagilitytechnologies.com
+  credentials:
+    [
+      {
+        text: "Certified SAFe 6 Practice Consultant (SPC)",
+        image: "certifications/certified-safe-6-practice-consultant.png",
+        url: "https://www.credly.com/badges/57c5b30c-2e4b-465c-ac19-6cdce3f043f9/public_url",
+      },
+      {
+        text: "Certified SAFe 6 Release Train Engineer (RTE)",
+        image: "certifications/certified-safe-6-release-train-engineer.png",
+        url: "https://www.credly.com/badges/247d5a90-1095-4a10-b9cb-866e8e1c104e/public_url",
+      },
+      {
+        text: "Certified SAFe 6 Advanced Scrum Master (SASM)",
+        image: "certifications/certified-safe-6-advanced-scrum-master.png",
+        url: "https://www.credly.com/badges/d8d2bcca-3558-43e6-81df-4ea768a28079/public_url",
+      },
+      {
+        text: "Certified SAFe 5 Government Practitioner (SGP)",
+        image: "certifications/certified-safe-5-government-practitioner.png",
+        url: "https://www.credly.com/badges/9704f630-9868-4e81-842c-786730b2cf43/public_url",
+      },
+      {
+        text: "SAFe Ready to Train",
+        image: "certifications/safe-ready-to-train.png",
+        url: "https://www.credly.com/badges/7dcb865e-9976-4769-97b5-dcf4a6ee97b8/public_url",
+      },
+    ]
 
 pat:
   name: Pat Setorie, Software Engineer
