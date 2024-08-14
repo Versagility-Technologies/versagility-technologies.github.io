@@ -43,7 +43,7 @@ team:
   <div style="display:inline-block;border-radius:7px;overflow:hidden;height:250px;width:250px;background:url({{ pic }});background-size:250px;"></div>
   {% endif %}
   <br/>
-  <div style="display:inline-block;padding-left:5px;"><b>{{
+  <div style="display:inline-block;padding-left:5px"><b>{{
     auth.name }}</b>{% if auth.email %}<br />(<a href="mailto:{{ auth.email }}">{{ auth.email }}</a>){% endif %}<br
     /><i><a href="{{ auth.url }}" target="_blank">{{ auth.url }}</a></i><br/>
     {% if auth.credentials != blank %}
