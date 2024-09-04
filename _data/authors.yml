@@ -18,6 +18,11 @@ brad:
         image: "certifications/certified-safe-6-practitioner.png",
         url: "https://www.credly.com/badges/594029f0-be4b-476c-9226-52f9aaef1285/public_url",
       },
+      {
+        text: "Professional Agile Leadership - Evidence Based Management (PAL-EBM)",
+        image: "certifications/professional-agile-leadership-evidence-based-management-pal-ebm.png",
+        url: "https://www.credly.com/badges/c7ee8df9-b087-499c-880e-00152236a949/public_url",
+      },
       #{
       #  text: "Certified SAFe 5 Practitioner",
       #  image: "certifications/certified-safe-5-practitioner.png",
