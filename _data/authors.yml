@@ -99,6 +99,11 @@ mike:
         image: "certifications/safe-ready-to-train.png",
         url: "https://www.credly.com/badges/7dcb865e-9976-4769-97b5-dcf4a6ee97b8/public_url",
       },
+      {
+        text: "Professional Agile Leadership - Evidence Based Management (PAL-EBM)",
+        image: "certifications/professional-agile-leadership-evidence-based-management-pal-ebm.png",
+        url: "https://www.credly.com/badges/12c8f21d-9091-4338-9c4a-eeef0cb804e3/public_url"
+      }
     ]
 
 pat:
