@@ -52,6 +52,13 @@ derek:
   url:
   avatar: derek.jpg
   email: dthompson@versagilitytechnologies.com
+  credentials: [
+      {
+        text: "Professional Agile Leadership - Evidence Based Management (PAL-EBM)",
+        image: "certifications/professional-agile-leadership-evidence-based-management-pal-ebm.png",
+        url: "https://www.credly.com/badges/3622e14e-5c14-4d6b-acc6-78ed5b330b4d/public_url",
+      },
+    ]
 
 mike:
   name: Mike Jenkins, CEO
