@@ -23,6 +23,11 @@ brad:
         image: "certifications/professional-agile-leadership-evidence-based-management-pal-ebm.png",
         url: "https://www.credly.com/badges/c7ee8df9-b087-499c-880e-00152236a949/public_url",
       },
+      {
+        text: "Certified SAFe 6 DevOps Practitioner",
+        image: "certifications/certified-safe-6-devops-practitioner.png",
+        url: "https://www.credly.com/badges/accdb530-78da-4af6-9b41-b417dbd8d973/public_url"
+      },
       #{
       #  text: "Certified SAFe 5 Practitioner",
       #  image: "certifications/certified-safe-5-practitioner.png",
