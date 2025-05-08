@@ -140,3 +140,16 @@ tan:
   url:
   avatar: tan.png
   email: tpham@versagilitytechnologies.com
+
+adam:
+  name: Adam Hughes, Software Engineer
+  bio: >
+    I'm a Finance major turned software developer, most recently working for Space Force 
+    Readiness. I've lived coast to coast, worked at start-ups and fortune 500s, and have 
+    been a professional for a decade. My hobbies are as diverse as my work background, but 
+    mainly revolve around being outside. Motorcycling, hunting, overlanding, hiking, 
+    pickleball, archery, and shooting is how my weekends get filled.
+  url:
+  avatar: adam.jpg
+  email: ahughes@versagilitytechnologies.com
+
