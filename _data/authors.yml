@@ -153,3 +153,17 @@ adam:
   avatar: adam.jpg
   email: ahughes@versagilitytechnologies.com
 
+trevor:
+  name: Trevor Burns, Software Engineer
+  bio: >
+    I'm a full-stack software engineer with over ten years of experience developing modern 
+    web applications in support of the Navy, Air Force, and Space Force. I've worked across 
+    the stack to deliver secure, scalable solutions in mission-critical environments and 
+    enjoy solving complex problems through clean, efficient code. Outside of work, I stay 
+    busy with my two kids, juggling their sports and school activities. When I'm not 
+    continuing my education or out on the soccer field or basketball court, I'm making the 
+    most of quiet moments with my wife, usually watching our favorite shows or playing 
+    video games together.
+  url:
+  avatar: trevor.jpg
+  email: tburns@versagilitytechnologies.com
