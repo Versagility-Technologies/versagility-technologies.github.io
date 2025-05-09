@@ -16,6 +16,7 @@ team:
   - pat
   - tan
   - adam
+  - trevor
 ---
 
 {%   assign logo = "versagility-logo.png" | prepend: "/images/" | prepend: site.baseurl %}
